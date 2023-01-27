@@ -8,7 +8,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Type x (x in [-1;1]:");
         double x = in.nextDouble();
-        if(-1>x>1){
+        if((-1<x)&(x>1)){
             System.out.println("x not in the range");
             return;
         }
